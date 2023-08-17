@@ -40,5 +40,12 @@ public class Main {
         System.out.println(z4 + "\n"); // 16
 
         System.out.println(35 >> 2); // 8
+        System.out.println();
+
+        boolean xb = 6 - 4/2 > 3 && 12*12 <= 119;
+        System.out.println(xb + "\n"); // false
+
+        boolean xb2 = 7 != 6+1;
+        System.out.println(xb2); // false
     }
 }
